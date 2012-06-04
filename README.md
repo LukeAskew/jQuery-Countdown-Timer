@@ -5,7 +5,7 @@ Super awesome timer that counts down to certain time and date.
 
 ### Usage ###
 
-  <div id="timer">
+	<div id="timer">
 		<div class="hours"></div>
 		<div class="minutes"></div>
 		<div class="seconds"></div>
