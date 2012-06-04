@@ -5,7 +5,7 @@
  */
 ;(function($, window, undefined) {
 
-//    "use strict";
+    "use strict";
 
     var plugin_name = 'countdown',
         document = window.document;
@@ -30,7 +30,7 @@
 				parsed_now = ( (now.getTime() + local_offset) / 1000);
 						
 			var time_left = parsed_end_time - parsed_now;
-			 
+          
 			var hours = Math.floor( time_left / 3600 ),
 				minutes = Math.floor( (time_left - (hours * 3600)) / 60 ),
 				seconds = Math.floor( (time_left - (hours * 3600) - (minutes * 60)) );
@@ -51,7 +51,7 @@
 				self.expired = true;
 			}
 			
-			if (self.expired) { return }
+			if (self.expired) { return; }
 			
 									
 			$(self.hours).html('<span>'+ hours[0] +'</span><span>'+ hours[1] +'</span><span>'+ hours[2] +'</span>');
