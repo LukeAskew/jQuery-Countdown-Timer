@@ -1,6 +1,7 @@
 /*!
  * jQuery Countdown Timer
  * @author Luke Askew <laskew@resource.com>
+ * @version 1.0.0
  */
 ;(function($, window, undefined) {
 
